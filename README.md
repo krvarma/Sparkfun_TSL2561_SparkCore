@@ -2,7 +2,7 @@ Spark Core, [Sparkfun TSL2561][1] and PushingBox
 ----------------------------------------
 
 ----------
-This is beginner level sample application to retrive sensor value from Sparkfun TSL2561. The TSL2561 is light sensor which outputs illumination in lux. This sample application retrieve the illumination value and if it is less than a particular value then send push notification using PushingBox. The lower limit is configurable using a Spark Function. 
+This is beginner level sample application to retrive sensor value from Sparkfun TSL2561. The TSL2561 is light sensor which outputs illumA beginner level sample application to retrieve sensor value from Sparkfun TSL2561. The TSL2561 is light sensor which outputs illumination in lux. This sample application retrieve the illumination value and if it is less than a particular value then send push notification using PushingBox. The lower limit is configurable using a Spark Function.
 
 This sample uses TSL256 code from [TSL2561 hookup guide from Sparkfun][2], PushingBox code from [this link][3] and [@bko's Web Page][4].
 
