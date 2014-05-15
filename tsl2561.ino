@@ -1,4 +1,4 @@
-// This #include statement was automatically added by the Spark IDE.
+ x// This #include statement was automatically added by the Spark IDE.
 #include "SFE_TSL2561.h"
 
 const char serverName[] = "api.pushingbox.com";
@@ -43,7 +43,8 @@ void loop() {
     
     if(lux < lowerLimit){
         if(!isSendPush){
-            sendToPushingBox("v1A467459F659AD9", (int)lux);
+			// Replace with your device id.
+            sendToPushingBox("<<deviceid>>", (int)lux);
             
             isSendPush = true;
         }

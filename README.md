@@ -13,7 +13,7 @@ This sample uses TSL256 code from [TSL2561 hookup guide from Sparkfun][2], Pushi
  4. TSL2561 SDA to D0
 
 ###How to run the application###
-Load the sample application into the Spark Core. Open the Web Page in an editor and replace the tokens *deviceid* and *access token* with actual values. Open the web page in a browser and press ***Connect*** Button.
+Load the sample application into the Spark Core. Open the Web Page in an editor and replace the tokens *deviceid* and *access token* with actual values. Open the web page in a browser and press ***Connect*** Button. Open the tsl2561.ino file and replace the <<deviceid>> token with your PushingBox device id.
   
 ![Wiring][5]
 
